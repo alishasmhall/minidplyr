@@ -8,7 +8,6 @@
 #' @return The sum of the two numbers or `x + y`.
 #' @export 
 #' 
-#' @import ggplot2
 #'
 #' @examples
 #' add(1, 2)
