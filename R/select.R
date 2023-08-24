@@ -1,14 +1,12 @@
 #' Select variable from a dataframe
 #' 
-#' Uses the {magrittr} pipe (%>%) and {dplyr} function "pull" to select and print a specific variable from a dataframe. 
+#' Selects and prints a specific variable or multiple variables of a dataframe. 
 #'
 #' @param df Dataframe.
-#' @param var Variable/column name, provided as a character string in quotes or the number of the column.
+#' @param var Variable/column name(s) or number(s).
 #' 
-#' @importFrom dplyr pull
-#' @import magrittr
 #'
-#' @return Vector of variable selected from provided dataframe.
+#' @return Variable(s) selected from provided dataframe.
 #' @export
 #'
 #' @examples

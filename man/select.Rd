@@ -9,13 +9,13 @@ select(df, var)
 \arguments{
 \item{df}{Dataframe.}
 
-\item{var}{Variable/column name, provided as a character string in quotes or the number of the column.}
+\item{var}{Variable/column name(s) or number(s).}
 }
 \value{
-Vector of variable selected from provided dataframe.
+Variable(s) selected from provided dataframe.
 }
 \description{
-Uses the {magrittr} pipe (\%>\%) and {dplyr} function "pull" to select and print a specific variable from a dataframe.
+Selects and prints a specific variable or multiple variables of a dataframe.
 }
 \examples{
 minidplyr::select(iris, "Species")
